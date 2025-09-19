@@ -1,0 +1,13 @@
+site_name: Edurio HubSpot Workflows
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+nav:
+  - Home: index.md
+  - Workflows:
+      - Workflow Title: workflows/workflow-title.md
+extra_css:
+  - assets/extra.css

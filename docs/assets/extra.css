@@ -1,0 +1,38 @@
+.md-sidebar--secondary,
+.md-nav--secondary { display: none !important; }
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #004A56;
+  --md-primary-fg-color--light: #046876;
+  --md-primary-fg-color--dark:  #003640;
+
+  --md-accent-fg-color: #004A56;
+
+  --md-typeset-a-color: #046876;
+
+  --md-default-bg-color: #121212;
+  --md-default-fg-color: #e0e0e0;
+}
+
+.md-typeset a:hover { color: #004A56; }
+
+#viewer {
+  background: #0f0f12;
+  border-radius: 4px;
+  border: 1px solid #004A56;
+}
+
+#viewer .displayregion,
+.openseadragon-container .displayregion,
+.openseadragon-navigator .displayregion,
+div[id$="displayregion"] {
+  border: 2px solid #004A56 !important; 
+  /*outline: 2px solid #004A56 !important;*/
+}
+
+#viewer .navigator,
+.openseadragon-navigator {
+  background-color: #0f0f12 !important;
+}
+*/
+
