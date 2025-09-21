@@ -1,3 +1,42 @@
 # Edurio HubSpot Workflows
 
-- **Workflow Title** → [Open](workflows/workflow-title.md)
+##### Articles
+- [Branching: One property vs AND/OR logic](articles/Article-Branching-Types.md)  
+- [Workflow triggers and enrolment](articles/Article-Workflow-triggers-and-enrolment.md)  
+- [Notable HubSpot limitations](articles/Article-Notable-HubSpot-limitations.md)  
+- [How to circumvent HubSpot's limitations](articles/Article-How-to-circumvent-HubSpots-limitations.md)  
+
+##### Properties
+- [Internal-use workflow properties](articles/Workflow-internal-properties.md)  
+- [User-controlled property triggers/flags](articles/User-controlled-property-triggers-flags.md)  
+
+##### Content/Implementation Workflows
+
+- [CSS/Content[0]: Admin dropdown change → chase task update](workflows/CSS-Content-0-Admin-dropdown-change.md)  
+- [CSS/Content[0]: Dataset dropdown change → chase task update](workflows/CSS-Content-0-Dataset-dropdown-change.md)  
+- [CSS/Content[1]: Content dropdown change → update tasks](workflows/CSS-Content-1-Content-dropdown-change.md)
+- [CSS/Content[2]: Update CSS tasks based on content dropdown/task completion changes](workflows/CSS-Content-2-Update-CSS-tasks.md)    
+- [CSS3/Setup/Content/PIPE/TSK: Task sequences<br><small><i>Changes ticket status and/or creates new tasks, based on the task completed</i></small>](workflows/CSS3-Setup-Content-PIPE-TSK-Task-sequences.md)
+- [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](workflows/CSM-CSS-TSK-Aux-Create-update%20tasks-assoc.md)
+
+##### Setup Workflows
+
+- [CSS/PIPE/Setup[0]: ⇒Setup -- Create CSS tasks & GL issue](workflows/CSS-PIPE-Setup-0-Setup--Create-CSS-tasks-GL-issue.md)
+- [CSS/Setup[1]: Create Support's tasks](workflows/CSS-Setup-1-Create-Supports-tasks.md)  
+- [CSS/Setup[1a]: Create Support's tasks (first linked)](workflows/CSS-Setup-1a-Create-Supports-tasks-first-linked.md)    
+- [CSS/Setup[1b]: Create Support's tasks (not first linked)](workflows/CSS-Setup-1b-Create-Supports-tasks-not-first-linked.md)  
+- [CSS/Setup[1c]: Create Support's tasks (not linked)](workflows/CSS-Setup-1c-Create-Supports-tasks-not-linked.md)  
+- [CSS3/Setup/Close[2]: Set Support's task dates](workflows/CSS3-Setup-Close-2-Set-Supports-task-dates.md)  
+
+##### Close Workflows
+- [CSS/PIPE/Close[0]: ⇒Live -- Create task & GL issue](workflows/CSS-PIPE-Close-0-Live--Create-task-GL-issue.md)  
+- ["CSS/Close[1]: Create Support's task(s)](workflows/CSS-Close-1-Create-Supports-task(s).md)  
+- [CSS3/Setup/Close[2]: Set Support's task dates](workflows/CSS3-Setup-Close-2-Set-Supports-task-dates(2).md)  
+
+##### Close Extension Workflows
+- [SUP/Extend[0]: Create initial tasks and start date calculation workflow](workflows/SUP-Extend-0-Create-initial-tasks-and-start-date-calculation-workflow.md)  
+- [SUP/Extend[1]: Trigger workflow to update dates for tasks (and to create reminders if needed)](workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md)  
+- [SUP/CSM/Extend[2]: Trigger extension task date change/creation](workflows/SUP-CSM-Extend-2-Trigger-extension-task-date-change-creation.md)  
+- [SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder](workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)  
+- [SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support](workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md)  
+- [SUP-Extend-5-Create-task-to-send-reminder-with-extension-template](workflows/SUP-Extend-5-Create-task-to-send-reminder-with-extension-template.md)  
