@@ -15,7 +15,7 @@
 ➖ Cannot be <i>set</i> dynamically by workflows  
 ➕ Can include conditional logic based on property values that <b><i>can</i></b> be changed dynamically in a workflow  
 
-#### Example of dynamic use with conditional logic: [Cumulative time tracking]()  
+#### Example of dynamic use with conditional logic: [Cumulative time tracking](../workflows/Cumulative-time-tracking.md)  
 
 ## Using property triggers/flags
 
@@ -34,7 +34,7 @@ As Zapier enrolment is typically based on property change, it is often necessary
 - The task triggers this workflow setting the *trigger property* on its associated ticket to the appropriate value.
 - The *trigger property* should be cleared either before setting or after enrolment if potential re-enrolment is desired.  
 
-#### (Example) Workflow 'switching': [workflow]()    
+#### (Example) The close extension workflows contain several instances of 'workflow switching': [task → ticket](../workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md) and [ticket → task](../workflows/SUP-CSM-Extend-2-Trigger-extension-task-date-change-creation.md).   
 
 ### Use #3: Triggering a workflow on a specific associated record  
 > For example, a deal workflow needs to perform an action on <i>one</i> of its associated tickets, but not all of them.  
@@ -54,7 +54,7 @@ Since tasks have no custom properties, the *priority* property is one potential 
 - The task workflow should be set up to trigger on *priority* change with the associated *flag property* as an enrolment condition (NOT a trigger).  
 - The first action of the task workflow should clear the priority flag. After this, conditional logic can be used to target only the relevant task(s).  
 
-#### (Example) Setting specific task dates:
+#### (Example) Renaming a specific task:
 - [workflow]()  
 - [workflow]()  
 

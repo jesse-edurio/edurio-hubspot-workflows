@@ -44,7 +44,8 @@ nav:
       - "SUP/Extend[3]: Update 'unassign issue' task date and create new final reminder": workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md  
       - "SUP/Extend[4]: Set date for new final reminder task and assign to Support": workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md  
       - "SUP/Extend[5]: Create task to send reminder with extension template (only if needed)": workflows/SUP-Extend-5-Create-task-to-send-reminder-with-extension-template.md  
-
+    - Miscellaneous:
+      - "CSS/TRACK: Set out-time of previous Content stage + Update cumulative time of Content stage": workflows/Cumulative-time-tracking.md  
 
 extra_javascript:
   - assets/scope.js
