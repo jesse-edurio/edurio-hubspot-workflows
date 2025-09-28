@@ -12,11 +12,11 @@
 
 ##### Content/Implementation Workflows
 
-- [CSS/Content[0]: Admin dropdown change → chase task update](workflows/CSS-Content-0-Admin-dropdown-change.md)  
-- [CSS/Content[0]: Dataset dropdown change → chase task update](workflows/CSS-Content-0-Dataset-dropdown-change.md)  
-- [CSS/Content[1]: Content dropdown change → update tasks](workflows/CSS-Content-1-Content-dropdown-change.md)
-- [CSS/Content[2]: Update CSS tasks based on content dropdown/task completion changes](workflows/CSS-Content-2-Update-CSS-tasks.md)    
-- [CSS3/Setup/Content/PIPE/TSK: Task sequences<br><small><i>Changes ticket status and/or creates new tasks, based on the task completed</i></small>](workflows/CSS3-Setup-Content-PIPE-TSK-Task-sequences.md)
+- [CSS/CNTNT[0]: Admin dropdown change → chase task update](workflows/CSS-CNTNT-0-Admin-dropdown-change.md)  
+- [CSS/CNTNT[0]: Dataset dropdown change → chase task update](workflows/CSS-CNTNT-0-Dataset-dropdown-change.md)  
+- [CSS/CNTNT[1]: Content dropdown change → update tasks](workflows/CSS-CNTNT-1-Content-dropdown-change.md)
+- [CSS/CNTNT[2]: Update CSS tasks based on content dropdown/task completion changes](workflows/CSS-CNTNT-2-Update-CSS-tasks.md)    
+- [CSS3/Setup/CNTNT/PIPE/TSK: Task sequences<br><small><i>Changes ticket status and/or creates new tasks, based on the task completed</i></small>](workflows/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.md)
 - [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](workflows/CSM-CSS-TSK-Aux-Create-update%20tasks-assoc.md)
 
 ##### Setup Workflows

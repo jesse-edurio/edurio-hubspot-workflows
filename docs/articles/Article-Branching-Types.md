@@ -22,6 +22,6 @@
 In the above picture, any branching logic that uses *Which facilitated surveys are required* = <u>Parent + Report</u> will <span class="red">evaluate as false</span>.  
 <u><i>Is any of</i></u>, <u><i>Is none of</i></u>, <u><i>Contains all of</i></u>, etc. are needed in situations where more than one value is ticked.  
  
-⚠️ There is no option in HubSpot to create a branching structure whereby every branch is evaluated. Therefore, a nested chain of branches is required to resolve actions based on each individual ticked property.  
+⚠️ Unlike Zapier, there is no option in HubSpot to create a branching structure whereby every branch is evaluated. Therefore, a nested chain of branches is required to resolve actions based on each individual ticked property.  
 
 #### Example

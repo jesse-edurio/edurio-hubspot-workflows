@@ -19,14 +19,14 @@
   border: 1px solid #004A56;
 }
 
-.scope-workflows #viewer .displayregion,
+.scope-workflows .displayregion,
 .scope-workflows .openseadragon-container .displayregion,
 .scope-workflows .openseadragon-navigator .displayregion,
 .scope-workflows div[id$="displayregion"] {
   border: 3px solid #046876 !important;
 }
 
-.scope-workflows #viewer .navigator,
+.scope-workflows .navigator,
 .scope-workflows .openseadragon-navigator {
   background-color: #0f0f12 !important;
 }
@@ -41,3 +41,13 @@ u { text-decoration: none; color: #88F2BF; }
 .red { color: #ff6666; }
 .cyan { color: #54C9ED; }
 /* font-style: normal; */
+
+.md-typeset details,
+.md-typeset summary { outline: 0 !important; box-shadow: none !important; background: none !important; 
+          border: none !important; font-size: 16px; }
+        
+.md-typeset details { border: 1px solid #e0e0e0 !important; }
+
+.md-typeset summary::before { background: #e0e0e0; }
+
+

@@ -7,7 +7,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var basePath = window.location.pathname.replace(/\/workflows\/.*/, '/');
-    var imgUrl = basePath + "images/CSS3-Setup-Content-PIPE-TSK-Task-sequences.png";
+    var imgUrl = basePath + "images/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.png";
     OpenSeadragon({ id: "viewer", prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/", tileSources: { type: "image", url: imgUrl, buildPyramid: false }, showNavigator: true, showZoomControl: true, showHomeControl: true, showFullPageControl: false });
   });
 </script>
