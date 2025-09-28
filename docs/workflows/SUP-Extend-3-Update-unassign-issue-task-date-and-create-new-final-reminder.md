@@ -22,4 +22,7 @@
 <i>The <u>Final reminder</u> task will automatically trigger the <u>Extend[4]</u> workflow because it is created with *Priority* set to <u>Medium</u>.</i>  
 
 ### Related  
+- [SUP/Extend[2]: Trigger extension task date change/creation](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md)  
+- [SUP/Extend[4]: Set date for new final reminder task and assign to Support](../workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md)  
+- [SUP/Extend[5]: Create task to send reminder with extension template (only if needed)](../workflows/SUP-Extend-5-Create-task-to-send-reminder-with-extension-template.md)  
 - [HSTrigger property](../articles/Workflow-internal-properties.md#hstrigger)

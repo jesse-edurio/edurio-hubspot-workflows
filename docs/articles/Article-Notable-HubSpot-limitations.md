@@ -12,6 +12,7 @@
 <small>Workarounds: ['Staircase' branching actions]()</small>  
 6. Workflows can only perform <u>replace</u> or <u>append</u> actions on *multiple-dropdown properties*; there is no <u>remove</u> option. Removing one option from a list will necessitate rebuilding the list using multiple branches – impractical unless the range of options is very small.  
 <small>Workarounds: None</small>  
+<small>Example: [Rebuilding list - see (4)](../workflows/CSS-CNTNT-2-Update-CSS-tasks.md)  
 
 
 ### See further: [How to circumvent HubSpot's limitations](../articles/Article-How-to-circumvent-HubSpots-limitations.md)

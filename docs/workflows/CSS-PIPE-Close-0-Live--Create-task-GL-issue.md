@@ -18,4 +18,4 @@
 
 ### Related  
 - [Zapier trigger property](../articles/Workflow-internal-properties.md#zapier-trigger-zapier-trigger2)
-- [CSS/Setup[1]: Create Support's tasks](../workflows/CSS-Setup-1-Create-Supports-tasks.md)  
+- [CSS/Close[1]: Create Support's task(s)](../workflows/CSS-Close-1-Create-Supports-task(s).md)  

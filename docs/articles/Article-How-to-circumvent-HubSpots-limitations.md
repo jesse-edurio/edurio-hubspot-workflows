@@ -21,7 +21,7 @@
 
 A single property can function as a trigger for multiple workflows and/or as a flag value for enrolment conditions for workflows triggered on multiple associated records.
 
-#### (Example) The same value of *HSTrigger* is used both as a trigger for [Extend[2]](../workflows/SUP-CSM-Extend-2-Trigger-extension-task-date-change-creation.md) and as a flag for [Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md).  
+#### (Example) The same value of *HSTrigger* is used both as a trigger for [Extend[2]](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md) and as a flag for [Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md).  
 
 ### Use #1: Zap activation  
 
@@ -34,7 +34,7 @@ As Zapier enrolment is typically based on property change, it is often necessary
 - The task triggers this workflow setting the *trigger property* on its associated ticket to the appropriate value.
 - The *trigger property* should be cleared either before setting or after enrolment if potential re-enrolment is desired.  
 
-#### (Example) The close extension workflows contain several instances of 'workflow switching': [task → ticket](../workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md) and [ticket → task](../workflows/SUP-CSM-Extend-2-Trigger-extension-task-date-change-creation.md).   
+#### (Example) The close extension workflows contain several instances of 'workflow switching': [task → ticket](../workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md) and [ticket → task](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md).   
 
 ### Use #3: Triggering a workflow on a specific associated record  
 > For example, a deal workflow needs to perform an action on <i>one</i> of its associated tickets, but not all of them.  

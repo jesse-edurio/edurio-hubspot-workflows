@@ -19,3 +19,5 @@
 ### Related  
 - [CSS/PIPE/Setup[0]: ⇒Setup -- Create CSS tasks & GL issue](../workflows/CSS-PIPE-Setup-0-Setup--Create-CSS-tasks-GL-issue.md)  
 - [CSS/Setup[1]: Create Support's tasks](../workflows/CSS-Setup-1-Create-Supports-tasks.md)  
+- [CSS/PIPE/Close[0]: ⇒Live -- Create task & GL issue](../workflows/CSS-PIPE-Close-0-Live--Create-task-GL-issue.md)  
+- [CSS/Close[1]: Create Support's task(s)](../workflows/CSS-Close-1-Create-Supports-task(s).md)  

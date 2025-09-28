@@ -10,6 +10,10 @@
 - [Internal-use workflow properties](articles/Workflow-internal-properties.md)  
 - [User-controlled property triggers/flags](articles/User-controlled-property-triggers-flags.md)  
 
+##### Task sequences
+- [CSS task sequence](articles/CSS-task-sequence.md)  
+- [Support task sequence](articles/SUP-task-sequence.md)  
+
 ##### Content/Implementation Workflows
 
 - [CSS/CNTNT[0]: Admin dropdown change → chase task update](workflows/CSS-CNTNT-0-Admin-dropdown-change.md)  
@@ -36,7 +40,7 @@
 ##### Close Extension Workflows
 - [SUP/Extend[0]: Create initial tasks and start date calculation workflow](workflows/SUP-Extend-0-Create-initial-tasks-and-start-date-calculation-workflow.md)  
 - [SUP/Extend[1]: Trigger workflow to update dates for tasks (and to create reminders if needed)](workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md)  
-- [SUP/CSM/Extend[2]: Trigger extension task date change/creation](workflows/SUP-CSM-Extend-2-Trigger-extension-task-date-change-creation.md)  
+- [SUP/Extend[2]: Trigger extension task date change/creation](workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md)  
 - [SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder](workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)  
 - [SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support](workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md)  
 - [SUP-Extend-5-Create-task-to-send-reminder-with-extension-template](workflows/SUP-Extend-5-Create-task-to-send-reminder-with-extension-template.md)  

@@ -21,4 +21,7 @@
 <i><u>Extension task1</u> and <u>Extension task2</u> trigger the same workflow. The two values originally had different functionality but this was later removed. The values have been kept in case an alternative variant is required in future.</i>  
 
 ### Related  
+- [SUP/Extend[0]: Create initial tasks and start date calculation workflow](../workflows/SUP-Extend-0-Create-initial-tasks-and-start-date-calculation-workflow.md)  
+- [SUP/Extend[2]: Trigger extension task date change/creation](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md)  
+- [SUP/Extend[3]: Update 'unassign issue' task date and create new final reminder](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)  
 - [HSTrigger property](../articles/Workflow-internal-properties.md#hstrigger)

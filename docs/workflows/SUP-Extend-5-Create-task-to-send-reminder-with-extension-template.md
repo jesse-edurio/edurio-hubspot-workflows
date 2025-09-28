@@ -21,4 +21,6 @@
 <span class="red">Shouldn't it check only if R3 (or final) has been sent today, not any reminder? What if R2 was sent today?</span>  
 
 ### Related  
+- [SUP/Extend[3]: Update 'unassign issue' task date and create new final reminder](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)  
+- [SUP/Extend[4]: Set date for new final reminder task and assign to Support](../workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md)  
 - [HSTrigger property](../articles/Workflow-internal-properties.md#hstrigger)

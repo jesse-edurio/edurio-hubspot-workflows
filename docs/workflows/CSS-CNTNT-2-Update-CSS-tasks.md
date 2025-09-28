@@ -21,7 +21,7 @@
 1. Disables explicit <u>Draft/Preview</u> task by setting property flag to <u>No</u> in cases where this task is not part of the task sequence for the assigned *CSS*.  
 2. Sets task *Status* depending on whether information is currently needed from the customer. Triggers [COMMS[3]/SPEC/CNTNT/TXT]() to set final <u>Chase POC: ...</u> title and *Notes*.  
 3. Sets *Draft/Preview* state depending on whether <u>Send draft/preview</u> task is incomplete/present.  
-4. Renames tasks if needed and updates *Content task list*.  
+4. Renames <u>Tag questions</u> task if needed and removes it from *Content task list*.  
 
 ### Notes  
 <i>The exact task sequence varies slightly according to the *CSS* property (e.g. whether a <u>Send draft/preview</u> task is generated or considered implicitly completed when the ticket moves into <u>In review</u>).<br>Tickets that are <u>In process</u> do not require customer chasing for content.</i>  

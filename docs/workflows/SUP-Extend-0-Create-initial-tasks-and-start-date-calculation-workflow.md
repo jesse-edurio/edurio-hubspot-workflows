@@ -23,4 +23,5 @@
 <i>The instruction variants take into account whether there is a report whose date needs updating and whether reminders need to be sent and/or updated.</i>  
 
 ### Related  
+- [SUP/Extend[1]: Trigger workflow to update dates for tasks (and to create reminders if needed)](../workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md)  
 - [Zapier trigger2 property](../articles/Workflow-internal-properties.md#zapier-trigger-zapier-trigger2)  
