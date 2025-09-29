@@ -11,8 +11,8 @@
 <h4 style="width:50%;padding:0 10px;margin:0 0 3px 0;">CSS/TRACK: Update cumulative time of Content stage</h4>
 </div>
 <div style="display:flex;">
-<div id="viewer" style="width:50%;height:520px;border:1px solid #ddd;"></div>
-<div id="viewer2" style="width:50%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:50%;height:60vh;border:1px solid #ddd;"></div>
+<div id="viewer2" style="width:50%;height:60vh;border:1px solid #ddd;"></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>

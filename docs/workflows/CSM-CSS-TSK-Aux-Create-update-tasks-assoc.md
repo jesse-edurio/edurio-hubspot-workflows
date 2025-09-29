@@ -1,14 +1,17 @@
+<details><summary>Overview</summary>
+<p></p></details>
+
 **Type:** Ticket workflow  
 **Activation:** Internal  
-**Triggers:** *HSTrigger* changed  
+**Trigger:** *HSTrigger* changed  
 **Key actions:** Creates or updates tasks        
 
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var basePath = window.location.pathname.replace(/\/workflows\/.*/, '/');
-    var imgUrl = basePath + "images/CSM-CSS-TSK-Aux-Create-update tasks-assoc.png";
+    var imgUrl = basePath + "images/CSM-CSS-TSK-Aux-Create-update-tasks-assoc.png";
     OpenSeadragon({ id: "viewer", prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/", tileSources: { type: "image", url: imgUrl, buildPyramid: false }, showNavigator: true, showZoomControl: true, showHomeControl: true, showFullPageControl: false });
   });
 </script>

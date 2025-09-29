@@ -1,9 +1,9 @@
 **Type:** Task workflow  
 **Activation:** Internal: Task creation  
-**Triggers:** *Priority* = <u>Medium</u> + *Assigned to* a CSS member   
+**Trigger:** *Priority* = <u>Medium</u> + *Assigned to* a CSS member   
 **Key actions:** Sets the dates of Support's tasks and assigns them to Support      
 
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {

@@ -3,11 +3,12 @@
 
 **Type:** Task workflow  
 **Activation:** Internal: <u>Content[0]</u>, <u>Content[1]</u>   
-**Triggers:** *Priority* change  
+**Trigger:** *Priority* change  
 **Enrolment conditions:** *HSTrigger* = <u>Update CSS tasks</u>  
 **Key actions:** Sets CSS tasks based on ticket state; for <u>Chase POC</u>, also passes to comms workflow for email text update  
+<a target="_blank" href="https://app-eu1.hubspot.com/workflows/3479931/platform/flow/2290283763/edit">Link</a>  
 
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {

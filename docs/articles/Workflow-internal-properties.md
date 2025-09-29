@@ -9,16 +9,21 @@ Used to trigger <i>setup, close, data export and survey extension Zaps</i>
 
 #### *HSTrigger*
 Used frequently in content, survey extension, ticket/issue/task creation, report task and auxiliary workflows.  
-<i>Example values: <u>Update CSS tasks</u>, <u>Update Content Dropdown</u>, <u>Trigger report due date change/task</u></i>
+<i>Example values: <u>Update CSS tasks</u>, <u>Update Content Dropdown</u>, <u>Trigger report due date change/task</u></i>  
+<small>[Full mapping](../articles/Workflow-internal-properties-mapping.md#hstrigger)</small>  
 
 #### *Comms update trigger*
 Used only in Comms workflows.  
 <i>Example values: <u>Update Comms task</u>, <u>Force Comms advance</u>, <u>Align linked comms stage</u></i>  
+<small>[Full mapping](../articles/Workflow-internal-properties-mapping.md#comms-update-trigger)</small>  
 
 ## Flag properties
 
 #### *Draft/Preview*  
 A ticket with *Content* <u>In progress</u> is ambiguous from a task persepective – it is unclear whether the task should be to <u>implement edits</u> or to <u>send a draft/preview to the customer</u>. This property is used as a flag to indicate to workflows which task is needed.  
+
+#### *Report-Is-First-Associated*  
+There is the possibility that an additional report could be added to a ticket and then a report due date is changed in either report. Workflows would have no way of ascertaining whether the due date for the other report should also be changed or which date should be the report date in the survey ticket. To counter this, only the first created report is 'linked' to the survey ticket: a due date change in one will change the due date in the other. If an additional report is present, a task will be generated to prompt a manual change. This property is used to facilitate this functionality in workflows.  
 
 ## State tracking properties
 

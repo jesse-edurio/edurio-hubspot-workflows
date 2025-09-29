@@ -1,9 +1,9 @@
 **Type:** Ticket workflow  
 **Activation:** Indirect from task completed, or *Ticket pipeline* movement  
-**Triggers:** *HSTrigger* changed, or *Status* = <u>Setup</u>  
+**Trigger:** *HSTrigger* changed, or *Status* = <u>Setup</u>  
 **Key actions:** Creates initial setup tasks + triggers Zapier  
 
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {

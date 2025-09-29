@@ -1,9 +1,9 @@
 **Type:** Ticket workflow  
 **Activation:** *Ticket pipeline* movement  
-**Triggers:** *Status* = <u>Live</u>  
+**Trigger:** *Status* = <u>Live</u>  
 **Key actions:** Creates CSS close task + triggers Zapier  
 
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {

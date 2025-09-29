@@ -1,9 +1,9 @@
 **Type:** Ticket workflow  
 **Activation:** Internal: <u>Extend[1]</u>  
-**Triggers:** *HSTrigger* = <u>Extension task (1 or 2)</u>  
+**Trigger:** *HSTrigger* = <u>Extension task (1 or 2)</u>  
 **Key actions:** Triggers task workflow on all associated tasks        
 
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {

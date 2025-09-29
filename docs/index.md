@@ -1,30 +1,36 @@
 # Edurio HubSpot Workflows
 
-##### Articles
+##### Articles  
 - [Branching: One property vs AND/OR logic](articles/Article-Branching-Types.md)  
 - [Workflow triggers and enrolment](articles/Article-Workflow-triggers-and-enrolment.md)  
 - [Notable HubSpot limitations](articles/Article-Notable-HubSpot-limitations.md)  
 - [How to circumvent HubSpot's limitations](articles/Article-How-to-circumvent-HubSpots-limitations.md)  
 
-##### Properties
-- [Internal-use workflow properties](articles/Workflow-internal-properties.md)  
+##### Properties  
 - [User-controlled property triggers/flags](articles/User-controlled-property-triggers-flags.md)  
-
-##### Task sequences
+- [Internal-use workflow properties: Overview](articles/Workflow-internal-properties.md)  
+- [Internal-use workflow properties: Mapping](articles/Workflow-internal-properties-mapping.md)  
+ 
+##### Task sequences  
 - [CSS task sequence](articles/CSS-task-sequence.md)  
 - [Support task sequence](articles/SUP-task-sequence.md)  
 
-##### Content/Implementation Workflows
+##### Implementation Workflows  
+- [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](workflows/CSM-CSS-TSK-Aux-Create-update-tasks-assoc.md)  
+- [CSM/Aux/TCKT/GTLB: Create Report/Survey tickets or Data export issues for CSMs](workflows/CSM-Aux-TCKT-GTLB-Create-Report-Survey-tickets-Data-export-issues.md)  
+- [CSM/Aux/TCKT: Create Report](workflows/CSM-Aux-TCKT-Create-Report.md)  
+- [CSM/CSS/SUP/Report: Apply report date change to assoc. ticket](workflows/CSM-CSS-SUP-Report-Apply-report-date-change.md)  
+- [CSM/PIPE*: Create report done task for CSM](workflows/CSM-PIPE-Create-report-done-task.md)  
+- [CSM/Report: Trigger report task (copy period ID)](workflows/CSM-Report-Trigger-report-task-copy-period-ID.md)  
 
-- [CSS/CNTNT[0]: Admin dropdown change → chase task update](workflows/CSS-CNTNT-0-Admin-dropdown-change.md)  
+##### Content/Implementation Workflows  
+- [CSS/CNTNT[0]: Admin dropdown change](workflows/CSS-CNTNT-0-Admin-dropdown-change.md)  
 - [CSS/CNTNT[0]: Dataset dropdown change → chase task update](workflows/CSS-CNTNT-0-Dataset-dropdown-change.md)  
 - [CSS/CNTNT[1]: Content dropdown change → update tasks](workflows/CSS-CNTNT-1-Content-dropdown-change.md)
 - [CSS/CNTNT[2]: Update CSS tasks based on content dropdown/task completion changes](workflows/CSS-CNTNT-2-Update-CSS-tasks.md)    
 - [CSS3/Setup/CNTNT/PIPE/TSK: Task sequences<br><small><i>Changes ticket status and/or creates new tasks, based on the task completed</i></small>](workflows/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.md)
-- [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](workflows/CSM-CSS-TSK-Aux-Create-update%20tasks-assoc.md)
 
-##### Setup Workflows
-
+##### Setup Workflows  
 - [CSS/PIPE/Setup[0]: ⇒Setup -- Create CSS tasks & GL issue](workflows/CSS-PIPE-Setup-0-Setup--Create-CSS-tasks-GL-issue.md)
 - [CSS/Setup[1]: Create Support's tasks](workflows/CSS-Setup-1-Create-Supports-tasks.md)  
 - [CSS/Setup[1a]: Create Support's tasks (first linked)](workflows/CSS-Setup-1a-Create-Supports-tasks-first-linked.md)    
@@ -32,7 +38,7 @@
 - [CSS/Setup[1c]: Create Support's tasks (not linked)](workflows/CSS-Setup-1c-Create-Supports-tasks-not-linked.md)  
 - [CSS3/Setup/Close[2]: Set Support's task dates](workflows/CSS3-Setup-Close-2-Set-Supports-task-dates.md)  
 
-##### Close Workflows
+##### Close Workflows  
 - [CSS/PIPE/Close[0]: ⇒Live -- Create task & GL issue](workflows/CSS-PIPE-Close-0-Live--Create-task-GL-issue.md)  
 - ["CSS/Close[1]: Create Support's task(s)](workflows/CSS-Close-1-Create-Supports-task(s).md)  
 - [CSS3/Setup/Close[2]: Set Support's task dates](workflows/CSS3-Setup-Close-2-Set-Supports-task-dates(2).md)  
@@ -44,6 +50,12 @@
 - [SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder](workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)  
 - [SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support](workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md)  
 - [SUP-Extend-5-Create-task-to-send-reminder-with-extension-template](workflows/SUP-Extend-5-Create-task-to-send-reminder-with-extension-template.md)  
+
+##### Report Workflows
+- [CSM/Aux/TCKT: Create Report](workflows/CSM-Aux-TCKT-Create-Report.md)  
+- [CSM/CSS/SUP/Report: Apply report date change to assoc. ticket](workflows/CSM-CSS-SUP-Report-Apply-report-date-change.md)  
+- [CSM/PIPE*: Create report done task for CSM](workflows/CSM-PIPE-Create-report-done-task.md)  
+- [CSM/Report: Trigger report task (copy period ID)](workflows/CSM-Report-Trigger-report-task-copy-period-ID.md)  
 
 ##### Miscellaneous
 - [CSS/TRACK: Set out-time of previous Content stage + Update cumulative time of Content stage](workflows/Cumulative-time-tracking.md)  

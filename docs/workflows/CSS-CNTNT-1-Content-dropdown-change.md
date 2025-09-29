@@ -3,10 +3,10 @@
 
 **Type:** Ticket workflow  
 **Activation:** User action  
-**Triggers:** *Content* dropdown change   
+**Trigger:** *Content* dropdown change   
 **Key actions:** Creates new CSS tasks if needed + Triggers <u>Update CSS tasks</u>  
    
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {

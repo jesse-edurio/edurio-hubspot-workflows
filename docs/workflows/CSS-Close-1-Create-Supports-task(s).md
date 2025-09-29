@@ -1,9 +1,9 @@
 **Type:** Ticket workflow  
 **Activation:** Zapier return  
-**Triggers:** *Link to Gitlab Close* changed to <u>https...</u>  
+**Trigger:** *Link to Gitlab Close* changed to <u>https...</u>  
 **Key actions:** Creates a Support close task for each survey      
 
-<div id="viewer" style="width:100%;height:520px;border:1px solid #ddd;"></div>
+<div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {

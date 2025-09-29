@@ -26,7 +26,7 @@
 <i>(4) <u>Chase POC</u> can have status completed either by workflows (when not required) or by user to trigger an email. Even though <u>COMMS[5]/EML</u> checks for null email tasks itself, it is more efficient to check here to avoid an unnecessary *Comms stage* reassessment.</i>  
 
 ### Related  
-- [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](../workflows/CSM-CSS-TSK-Aux-Create-update%20tasks-assoc.md)  
+- [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](../workflows/CSM-CSS-TSK-Aux-Create-update-tasks-assoc.md)  
 - [COMMS[5]/EML: Trigger email send]()
 - [HSTrigger property](../articles/Workflow-internal-properties.md#hstrigger)
 - [Draft/Preview property](../articles/Workflow-internal-properties.md#draftpreview)
