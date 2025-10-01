@@ -1,6 +1,7 @@
 **Type:** Ticket workflow  
 **Activation/Triggers:** *Survey Close Extension Needed* changed  
 **Key actions:** Creates extension tasks + triggers Zapier  
+<a target="_blank" href="https://app-eu1.hubspot.com/workflows/3479931/platform/flow/2255329475/edit">Link</a>  
 
 <div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>

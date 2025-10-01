@@ -1,6 +1,9 @@
+<details><summary>Overview</summary>
+<p></p></details>  
+
 **Type:** Ticket workflow  
 **Activation:** Indirect from task completed, or *Ticket pipeline* movement  
-**Trigger:** *HSTrigger* changed, or *Status* = <u>Setup</u>  
+**Trigger:** *HSTrigger* = <u>Trigger set-up</u>, or *Status* = <u>Setup</u>  
 **Key actions:** Creates initial setup tasks + triggers Zapier  
 
 <div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>

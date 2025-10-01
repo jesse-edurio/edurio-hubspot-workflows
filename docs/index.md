@@ -11,17 +11,14 @@
 - [Internal-use workflow properties: Overview](articles/Workflow-internal-properties.md)  
 - [Internal-use workflow properties: Mapping](articles/Workflow-internal-properties-mapping.md)  
  
-##### Task sequences  
+##### Tasks & Task sequences  
 - [CSS task sequence](articles/CSS-task-sequence.md)  
 - [Support task sequence](articles/SUP-task-sequence.md)  
+- [Chase POC task](articles/CSS-tasks-Chase-POC.md)  
 
-##### Implementation Workflows  
+##### Implementation Workflows   
+- [CSM/Aux/TCKT/GTLB: Create Report/Survey tickets or Data export issues for CSMs](workflows/CSM-Aux-TCKT-GTLB-Create-Report-Survey-tickets-Data-export-issues.md)   
 - [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](workflows/CSM-CSS-TSK-Aux-Create-update-tasks-assoc.md)  
-- [CSM/Aux/TCKT/GTLB: Create Report/Survey tickets or Data export issues for CSMs](workflows/CSM-Aux-TCKT-GTLB-Create-Report-Survey-tickets-Data-export-issues.md)  
-- [CSM/Aux/TCKT: Create Report](workflows/CSM-Aux-TCKT-Create-Report.md)  
-- [CSM/CSS/SUP/Report: Apply report date change to assoc. ticket](workflows/CSM-CSS-SUP-Report-Apply-report-date-change.md)  
-- [CSM/PIPE*: Create report done task for CSM](workflows/CSM-PIPE-Create-report-done-task.md)  
-- [CSM/Report: Trigger report task (copy period ID)](workflows/CSM-Report-Trigger-report-task-copy-period-ID.md)  
 
 ##### Content/Implementation Workflows  
 - [CSS/CNTNT[0]: Admin dropdown change](workflows/CSS-CNTNT-0-Admin-dropdown-change.md)  

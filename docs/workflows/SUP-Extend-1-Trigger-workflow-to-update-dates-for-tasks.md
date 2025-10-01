@@ -2,6 +2,7 @@
 **Activation/Triggers:** Task completed  
 **Enrolment conditions:** *Title* = <u>Trigger automation to update...</u>  
 **Key actions:** Triggers extension workflow continuation only if Zapier has returned dates  
+<a target="_blank" href="https://app-eu1.hubspot.com/workflows/3479931/platform/flow/2269006072/edit">Link</a>  
 
 <div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>

@@ -1,4 +1,3 @@
-> Note:  
 > Several tasks can be created in more than one workflow. This is because it is possible for a ticket to jump pipeline stages (e.g. <u>Ready for OB/KO</u> ⇒ <u>Active implementation</u>) and because both <em>dropdown property</em> changes and task completion can trigger new tasks. As the workflows check whether a task already exists before creating one, tasks should never be duplicated.  
 
 ### OB/KO

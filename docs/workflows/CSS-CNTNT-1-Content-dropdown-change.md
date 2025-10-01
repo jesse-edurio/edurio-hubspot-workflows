@@ -5,6 +5,7 @@
 **Activation:** User action  
 **Trigger:** *Content* dropdown change   
 **Key actions:** Creates new CSS tasks if needed + Triggers <u>Update CSS tasks</u>  
+<a target="_blank" href="https://app-eu1.hubspot.com/workflows/3479931/platform/flow/2290283761/edit">Link</a>  
    
 <div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>

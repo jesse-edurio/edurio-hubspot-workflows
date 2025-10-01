@@ -1,7 +1,7 @@
 **Type:** Ticket workflow  
 **Activation:** User action  
 **Trigger:** *Admins* dropdown change  
-**Key actions:** Triggers <u>Update CSS tasks</u>  
+**Key actions:** Creates a unique <u>Chase-POC</u> task if needed    
 <a target="_blank" href="https://app-eu1.hubspot.com/workflows/3479931/platform/flow/2283067604/edit">Link</a>  
 
 <div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>

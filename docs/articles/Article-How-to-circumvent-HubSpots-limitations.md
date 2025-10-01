@@ -15,13 +15,13 @@
 ➖ Cannot be <i>set</i> dynamically by workflows  
 ➕ Can include conditional logic based on property values that <b><i>can</i></b> be changed dynamically in a workflow  
 
-#### Example of dynamic use with conditional logic: [Cumulative time tracking](../workflows/Cumulative-time-tracking.md)  
+<small><i>Example of dynamic use with conditional logic: <b>[Cumulative time tracking](../workflows/Cumulative-time-tracking.md)</b></i></small>  
 
 ## Using property triggers/flags
 
 A single property can function as a trigger for multiple workflows and/or as a flag value for enrolment conditions for workflows triggered on multiple associated records.
 
-#### (Example) The same value of *HSTrigger* is used both as a trigger for [Extend[2]](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md) and as a flag for [Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md).  
+<small><i><b>(Example)</b> The same value of *HSTrigger* is used both as a trigger for <b>[Extend[2]](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md)</b> and as a flag for <b>[Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)</b>.</i></small>  
 
 ### Use #1: Zap activation  
 
@@ -34,7 +34,7 @@ As Zapier enrolment is typically based on property change, it is often necessary
 - The task triggers this workflow setting the *trigger property* on its associated ticket to the appropriate value.
 - The *trigger property* should be cleared either before setting or after enrolment if potential re-enrolment is desired.  
 
-#### (Example) The close extension workflows contain several instances of 'workflow switching': [task → ticket](../workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md) and [ticket → task](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md).   
+<small><i><b>(Example)</b> The close extension workflows contain several instances of workflow switching: <b>[task → ticket](../workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md)</b> and <b>[ticket → task](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md)</b>.</i></small>  
 
 ### Use #3: Triggering a workflow on a specific associated record  
 > For example, a deal workflow needs to perform an action on <i>one</i> of its associated tickets, but not all of them.  
@@ -42,7 +42,7 @@ As Zapier enrolment is typically based on property change, it is often necessary
 - The workflow sets the *trigger property* on all associated records.  
 - All associated records enter the new (or same) workflow and can then be filtered (e.g. by pipeline or property logic) so that only the correct record is acted upon.  
 
-#### (Example) Targeting a specific associated record: [workflow]()
+<small><i><b>(Example)</b> </i></small>  
 
 ### Use #4: Using trigger + flag combination with <i>tasks</i>
 > For example, a ticket workflow needs to set the date of <i>one</i> of its associated tasks, but not all of them.  
@@ -54,7 +54,7 @@ Since tasks have no custom properties, the *priority* property is one potential 
 - The task workflow should be set up to trigger on *priority* change with the associated *flag property* as an enrolment condition (NOT a trigger).  
 - The first action of the task workflow should clear the priority flag. After this, conditional logic can be used to target only the relevant task(s).  
 
-#### (Example) Renaming a specific task:
+<small><i><b>(Example)</b> Renaming a specific task:</i></small>   
 - [workflow]()  
 - [workflow]()  
 
@@ -62,11 +62,11 @@ Since tasks have no custom properties, the *priority* property is one potential 
 
 ⚠️ Do NOT do the equivalent of a 'Select all' on tasks. Use *property flags* as enrolment conditions on any task workflow triggered in this way and ensure conditional logic (e.g. on the task *title*) filters out all but the relevant task(s) before any action is taken.  
 
-## State tracking properties
+## State tracking properties  
 
-It is sometimes easier to use a single property (either a multi-dropbox or single-line text) to function almost as a <i>set of variables</i>. This is only usually necesssary under the following circumstances:  
+It is sometimes easier to use a single property (usually a dropdown or a multi-dropdown) to function almost as a <i>set of variables</i>. This is only usually necesssary under the following circumstances:  
 
-- To avoid cumbersome repeated branching logic on associated properties in workflows that require heavy use of associations (example: [Content task list]() property).  
-- To run workflows that require branching logic on records associated with an association, as HubSpot only supports logic based on immediate associations (example: [Linked ready]() property).  
+- To avoid cumbersome repeated branching logic on associated properties in workflows that require heavy use of associations.  
+- To run workflows that require branching logic on records associated with an association, as HubSpot only supports logic based on immediate associations.  
 
-⚠️ This is generally not good practice and should be used sparingly, if ever. Most workflow actions can be achieved through other means.  
+<small><i><b>(Example)</b> [COMMS[3]/SPEC/CNTNT/TXT]() is a task workflow that needs to check whether another task (<u>Send draft/preview</u>) exists and is incomplete in the same ticket but has no means of checking a task associated to its associated ticket.  <em>Draft/Preview</em> is used to enable this logic.</i></small>   

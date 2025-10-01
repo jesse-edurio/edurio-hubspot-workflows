@@ -1,7 +1,8 @@
 **Type:** Task workflow  
 **Activation:** Internal: Task creation (<u>Extend[3]</u>)  
 **Trigger:** *Title* = <u>Final reminder</u> + *Priority* = <u>Medium</u>  
-**Key actions:** Sets task due date and assigns to Support       
+**Key actions:** Sets task due date and assigns to Support  
+<a target="_blank" href="https://app-eu1.hubspot.com/workflows/3479931/platform/flow/2269288691/edit">Link</a>  
 
 <div id="viewer" style="width:100%;height:60vh;border:1px solid #ddd;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>

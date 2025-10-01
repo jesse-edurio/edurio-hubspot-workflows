@@ -1,3 +1,6 @@
+<details><summary>Overview</summary>
+<p>The <em>CSM: Create</em> property is a dropdown that acts a functional 'button', allowing users to create tickets (or GitLab issues) as an action. The property clears its value when the action has been performed, allowing the user to perform another action if needed.</p></details>  
+
 **Type:** Ticket workflow  
 **Activation/Trigger:** *CSM: Create* dropdown change  
 **Key actions:** Creates report/survey tickets OR triggers Zapier to create GitLab issue for Data export  
@@ -15,4 +18,5 @@
 
 ### Related  
 - [CSM/Aux/TCKT: Create Report](../workflows/CSM-Aux-TCKT-Create-Report.md)  
+- [CSM: Create](../articles/User-controlled-property-triggers-flags.md#csm-create)  
 - [Zapier trigger](../articles/Workflow-internal-properties.md#zapier-trigger-zapier-trigger2)  

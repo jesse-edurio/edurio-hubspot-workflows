@@ -1,7 +1,6 @@
-### <small>What tasks are created</small>    
-- <small>The number of <u>Survey launch</u> and <u>Unassign close issue</u> tasks created depends on the <em>Number of templates</em>.</small>  
-- <small><u>Update POC</u>/<u>Ask about close</u> are only created for one survey in <span class="cyan">linked implementation</span>.</small>
-- <small><u>Reminder</u> tasks depend on <em>Distribution method</em>.</small>  
+ > The number of <u>Survey launch</u> and <u>Unassign close issue</u> tasks created depends on the <em>Number of templates</em>.  
+> <u>Update POC</u>/<u>Ask about close</u> are only created for one survey in <span class="cyan">linked implementation</span>.
+> <u>Reminder</u> tasks depend on <em>Distribution method</em>.  
 
 ### Survey live
 
@@ -26,9 +25,11 @@
 ### Close extension  
 
 - <u>Click to trigger automation to update Unassign Close Issue and generate reminder(s)</u>  
-<small>Created by: [SUP/Extend[0]](../workflows/SUP-Extend-0-Create-initial-tasks-and-start-date-calculation-workflow.md)</small>  
-<small>Date set: [SUP/Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)</small>  
+<u><small>&lt;company></small> has extended (<small>&lt;type></small>). Complete actions (see notes).</u>  
+<small>Created by: [SUP/Extend[0]](../workflows/SUP-Extend-0-Create-initial-tasks-and-start-date-calculation-workflow.md)</small>   
+- <u>Reminder (use the extension template)</u>  
+<small>Created by: [SUP/Extend[5]](../workflows/SUP-Extend-5-Create-task-to-send-reminder-with-extension-template.md)</small>  
+<small>Date set: [SUP/Extend[4]](../workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md)</small>  
 - <u>Final reminder</u>  
 <small>Created by: [SUP/Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)</small>  
 <small>Date set: [SUP/Extend[4]](../workflows/SUP-Extend-4-Set-date-for-new-final-reminder-task-and-assign-to-Support.md)</small>  
-<span class="red">Also Extend[5] creates task... something seems wrong here</span>

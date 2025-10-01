@@ -2,7 +2,7 @@
 
 - <u>Update CSS tasks</u>  
 <small>Set by: [CSS/CNTNT[0]: Dataset](../workflows/CSS-CNTNT-0-Dataset-dropdown-change.md), [CSS/CNTNT[1]](../workflows/CSS-CNTNT-1-Content-dropdown-change.md), [COMMS[0]/MAIN](../workflows), [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](../workflows/CSM-CSS-TSK-Aux-Create-update-tasks-assoc.md)</small>  
-<small>Triggers: [CSS/CNTNT[2]](../workflows/CSS-CNTNT-2-Update-CSS-tasks.md)</small>  
+<small>Is enrolment condtion: [CSS/CNTNT[2]](../workflows/CSS-CNTNT-2-Update-CSS-tasks.md)</small>  
 
 - <u>Trigger update CSS tasks</u>  
 <small>Set by: [CSS3/Setup/CNTNT/PIPE/TSK: Task sequences](../workflows/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.md)</small>  
@@ -19,6 +19,7 @@
 - <u>Extension task1/task2</u>  
 <small>Set by: [SUP/Extend[1]](../workflows/SUP-Extend-1-Trigger-workflow-to-update-dates-for-tasks.md)</small>  
 <small>Triggers: [SUP/Extend[2]](../workflows/SUP-Extend-2-Trigger-extension-task-date-change-creation.md)</small>  
+<small>Is enrolment condtion: [SUP/Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)</small>  
 
 - <u>Extension task3</u>  
 <small>Set by: [SUP/Extend[3]](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)</small>  
@@ -43,4 +44,6 @@
 ## *Comms update trigger*
 
 
-### See also: [User-controlled property triggers/flags](../articles/User-controlled-property-triggers-flags.md)  
+### See also:
+- [User-controlled property triggers/flags](../articles/User-controlled-property-triggers-flags.md)  
+- [Using property triggers/flags](../articles/Article-How-to-circumvent-HubSpots-limitations.md#using-property-triggersflags)  

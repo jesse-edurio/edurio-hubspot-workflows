@@ -1,5 +1,5 @@
-.md-typeset a { color: #046876 !important; }
-.md-typeset a:hover { color: #2A8490 !important; }
+.md-typeset a { color: #2A8490 !important; }
+.md-typeset a:hover { color: #55A1AA !important; }
 
 .md-sidebar--secondary,
 .md-nav--secondary { display: none !important; }
@@ -12,6 +12,8 @@
   --md-default-bg-color: #121212 !important;
   --md-default-fg-color: #e0e0e0 !important;
 }
+
+.md-nav__item--active > .md-nav__link { color: #046876 !important; }
 
 .scope-workflows #viewer {
   background: #1d1d1d;
