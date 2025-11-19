@@ -3,8 +3,8 @@
 ##### Articles  
 - [Branching: One property vs AND/OR logic](articles/Article-Branching-Types.md)  
 - [Workflow triggers and enrolment](articles/Article-Workflow-triggers-and-enrolment.md)  
-- [Notable HubSpot limitations](articles/Article-Notable-HubSpot-limitations.md)  
-- [How to circumvent HubSpot's limitations](articles/Article-How-to-circumvent-HubSpots-limitations.md)  
+- [Some notable HubSpot limitations](articles/Article-Some-Notable-HubSpot-limitations.md)  
+- [Techniques used in CS workflows](articles/Article-Techniques-used-in-CS-workflows.md)  
 
 ##### Properties  
 - [User-controlled property triggers/flags](articles/User-controlled-property-triggers-flags.md)  
@@ -18,14 +18,20 @@
 
 ##### Implementation Workflows   
 - [CSM/Aux/TCKT/GTLB: Create Report/Survey tickets or Data export issues for CSMs](workflows/CSM-Aux-TCKT-GTLB-Create-Report-Survey-tickets-Data-export-issues.md)   
+- [CSS/Aux/TSK/GTLB: Create additional tasks/GL issues for CSS](workflows/CSS-Aux-TSK-GTLB-Create-additional-tasks-GL-issues-for-CSS.md)  
 - [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](workflows/CSM-CSS-TSK-Aux-Create-update-tasks-assoc.md)  
+- [CSM3/CSS3/Aux/TCKT[0]: Set defaults for new surveys](workflows/CSM3-CSS3-Aux-TCKT[0]-Set-defaults-for-new-surveys.md)  
+- [CSM/CSS/Aux/TCKT[1]: Set defaults for active surveys](workflows/CSM-CSS-Aux-TCKT[1]-Set-defaults-for-active-surveys.md)  
+- [CSS/CSM/Aux: Update CSS in company record](workflows/CSS-CSM-Aux-Update-CSS-in-company-record.md)  
+- [CSS/Aux: Generate intro warning for pupil surveys](workflows/CSS-Aux-Generate-intro-warning-for-pupil-surveys.md)  
+- [CSS3/CSM3/PIPE: ⇒Active implementation](workflows/CSS3-CSM3-PIPE--Active-implementation.md)  
 
 ##### Content/Implementation Workflows  
 - [CSS/CNTNT[0]: Admin dropdown change](workflows/CSS-CNTNT-0-Admin-dropdown-change.md)  
 - [CSS/CNTNT[0]: Dataset dropdown change → chase task update](workflows/CSS-CNTNT-0-Dataset-dropdown-change.md)  
 - [CSS/CNTNT[1]: Content dropdown change → update tasks](workflows/CSS-CNTNT-1-Content-dropdown-change.md)
 - [CSS/CNTNT[2]: Update CSS tasks based on content dropdown/task completion changes](workflows/CSS-CNTNT-2-Update-CSS-tasks.md)    
-- [CSS3/Setup/CNTNT/PIPE/TSK: Task sequences<br><small><i>Changes ticket status and/or creates new tasks, based on the task completed</i></small>](workflows/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.md)
+- [CSS3/Setup/CNTNT/PIPE/TSK: Task sequences](workflows/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.md)
 
 ##### Setup Workflows  
 - [CSS/PIPE/Setup[0]: ⇒Setup -- Create CSS tasks & GL issue](workflows/CSS-PIPE-Setup-0-Setup--Create-CSS-tasks-GL-issue.md)

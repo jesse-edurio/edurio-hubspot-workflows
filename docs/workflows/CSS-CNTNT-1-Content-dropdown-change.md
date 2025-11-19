@@ -26,7 +26,8 @@
 <i>Varies task sequence slightly according to *CSS* property.</i>  
 
 ### Related  
-- [CSS/CNTNT[2]: Update CSS tasks based on content dropdown/task completion changes](../workflows/CSS-CNTNT-2-Update-CSS-tasks.md)
-- [HSTrigger property](../articles/Workflow-internal-properties.md#hstrigger)
+- [CSS/CNTNT[2]: Update CSS tasks based on content dropdown/task completion changes](../workflows/CSS-CNTNT-2-Update-CSS-tasks.md)  
+- [CSS task sequence](../articles/CSS-task-sequence.md)  
+- [HSTrigger property](../articles/Workflow-internal-properties.md#hstrigger)  
 - [Draft/Preview property](../articles/Workflow-internal-properties.md#draftpreview)
 - [Content task list property](../articles/Workflow-internal-properties.md#content-task-list)

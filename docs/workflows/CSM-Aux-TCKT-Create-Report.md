@@ -14,7 +14,7 @@
   });
 </script>
 
-### Key steps  
+### Key points  
 - Titles report ticket depending on *Report?* and also marks first report using *Report-Is-First-Associated* property.   
 - Triggers <u>Create report task</u> for any ticket in <u>Setup</u> stage or later.  
 

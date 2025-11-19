@@ -24,4 +24,4 @@ If the trigger for the enrolment is a property (or task *priority*, etc.) that s
 > <small>Example  
 > A deal workflow sets <u>Force Comms update</u> to a trigger property on all associated tickets, causing them to enrol in a ticket workflow. Only tickets with active comms are relevant. However, it is good practice NOT to exclude unwanted tickets from entering the workflow; rather, all tickets should enrol so that the trigger property is always cleared before deciding whether the ticket should be acted upon.</small>
 
-#### See further: [Using property triggers/flags](../articles/Article-How-to-circumvent-HubSpots-limitations.md#using-property-triggersflags)
+### <small>See further: [Using property triggers/flags](../articles/Article-Techniques-used-in-CS-workflows.md#using-property-triggersflags)</small>  

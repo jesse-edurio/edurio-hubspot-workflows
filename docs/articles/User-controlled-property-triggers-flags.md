@@ -11,6 +11,7 @@ Can be used to create the following:
 - <u>Other survey</u>  
 
 <br>
+
 #### *CSS: Create*  
 Can be used to create the following:  
 
@@ -20,7 +21,17 @@ Can be used to create the following:
 - <u>Additional GitLab Set-up issue</u>  
 - <u>Additional set of Support set-up tasks</u>  
 - <u>Additional GitLab Close issue and task</u>  
+
 <br>
+
+#### *Exports*  
+
+- <u>Data export</u> (set internally by [CSM3/CSS3/Aux/TCKT[0]](../workflows/CSM3-CSS3-Aux-TCKT[0]-Set-defaults-for-new-surveys.md))    
+- <u>Safeguarding contact form</u>  
+- <u>Prize draw</u>  
+
+<br>
+
 #### *Linked implementation*  
 Used to select surveys for which automated comms will be combined into a single email. Only the five standard professionally managed surveys are available for <span class="cyan">linked implementation</span>, and each survey must have a different stakeholder:  
 

@@ -1,12 +1,15 @@
 > Foreword:  
-> The following are not meant to be regarded as best practice. Some of the techniques detailed here are essentially workarounds, used in CS workflows to achieve results that are not possible through direct means (because HubSpot doesn't natively support them).  
-  
+>  
+> The following are not meant to be regarded as best practice. Many of the techniques detailed here are essentially workarounds, used in CS workflows to achieve results that are not possible through direct means (because HubSpot doesn't natively support them).
+
+<br>
 #### Examples of actions that require 'non-standard' techniques:
 
 - a property change in one ticket creating a task and/or changing a property in a different ticket   
 - creating a task with a due date set to ticket property (only a task workflow can set a task's due date to a property – but cannot do this on a task it creates)  
 - dynamically changing the text of a task to reflect the state of one or more ticket properties  
 - linking changeable properties between certain associated tickets, e.g. so that a change on one ticket will change the equivalent property on another ticket (but not all associated tickets)  
+- cross-updating tickets that <i>aren't</i> associated   
 - tracking the cumulative time a property spends in one or more defined states (HubSpot tracks cumulative time only for pipeline stages, not properties)   
 
 ## Calculated properties (dynamic use)
@@ -54,9 +57,7 @@ Since tasks have no custom properties, the *priority* property is one potential 
 - The task workflow should be set up to trigger on *priority* change with the associated *flag property* as an enrolment condition (NOT a trigger).  
 - The first action of the task workflow should clear the priority flag. After this, conditional logic can be used to target only the relevant task(s).  
 
-<small><i><b>(Example)</b> Renaming a specific task:</i></small>   
-- [workflow]()  
-- [workflow]()  
+<small><i><b>(Example)</b> [COMMS[0]/SPEC/SUP: Change Update POC task into COMMS]() is triggered by a ticket workflow to update a specific task.</i></small>  
 
 #### See also: [Enrolment on creation](../articles/Article-Workflow-triggers-and-enrolment.md#enrolment-on-creation)  
 
@@ -70,3 +71,11 @@ It is sometimes easier to use a single property (usually a dropdown or a multi-d
 - To run workflows that require branching logic on records associated with an association, as HubSpot only supports logic based on immediate associations.  
 
 <small><i><b>(Example)</b> [COMMS[3]/SPEC/CNTNT/TXT]() is a task workflow that needs to check whether another task (<u>Send draft/preview</u>) exists and is incomplete in the same ticket but has no means of checking a task associated to its associated ticket.  <em>Draft/Preview</em> is used to enable this logic.</i></small>   
+
+## Bridging properties  
+
+The only manageable means of cross-referencing (and therefore cross-updating) <b>unassociated</b> records is through a common association. However, due to HubSpot's limitations on branching logic between associated objects (see [Some notable HubSpot limitations, 4 and 5](../articles/Article-Some-Notable-HubSpot-limitations.md)), it is likely that *bridging properties* will be needed to enable cross-updating.  
+
+<small><i><b>(Example)</b> The Comms workflows that handle *Comms stage* alignment and *Linked implementation* cross-updating use bridging properties.</i></small>  
+- <small>[COMMS/LNK/ALIGN: Update linked implementation/distribution]()</small>  
+- <small>[COMMS/ALIGN: React linked implementation tickets]()</small>  

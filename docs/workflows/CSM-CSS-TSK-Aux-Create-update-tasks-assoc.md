@@ -27,6 +27,6 @@
 
 ### Related  
 - [HSTrigger property](../articles/Workflow-internal-properties.md#hstrigger)  
-- [Using property triggers/flags](../articles/Article-How-to-circumvent-HubSpots-limitations.md#using-property-triggersflags)  
+- [Using property triggers/flags](../articles/Article-Techniques-used-in-CS-workflows.md#using-property-triggersflags)  
 - [CSS/CNTNT[2]: Update CSS tasks based on content dropdown/task completion changes](../workflows/CSS-CNTNT-2-Update-CSS-tasks.md)  
 - [CSS3/Setup/CNTNT/PIPE/TSK: Task sequences](../workflows/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.md)  

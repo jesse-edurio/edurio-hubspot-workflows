@@ -12,7 +12,7 @@
   });
 </script>
 
-### Key steps  
+### Key points  
 - Creates reminders as necessary, depending on *Distribution method* and (for reminder 3) stakeholder group.  
 - Creates a differently titled version of each task if *Custom comms* is <u>Yes</u>.  
 - All tasks are created with *Priority* set to <u>Medium</u> to trigger task enrolment in <u>CSS3/Setup/Close[2]</u>.  

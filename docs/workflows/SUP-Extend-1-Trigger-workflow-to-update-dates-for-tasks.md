@@ -14,7 +14,7 @@
   });
 </script>
 
-### Key steps  
+### Key points  
 - Uncompletes task if Zapier hasn't returned dates (adds <u>!!</u> to *Title* as indicator)  
 - Triggers ticket workflow using *HSTrigger* change.  
 

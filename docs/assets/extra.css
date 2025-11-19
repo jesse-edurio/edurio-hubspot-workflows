@@ -34,14 +34,17 @@
 }
 
 .scope-workflows strong { color: #666; }
-em { color: #9770AE; }
+em { color: #A482B8; }
 u { text-decoration: none; color: #88F2BF; }
+small { color: #ccc; }
+.md-typeset blockquote { color: #bbb; }
+
 
 .md-grid { max-width: 100% !important; }
 .md-main__inner { max-width: 95% !important; }
 
 .red { color: #ff6666; }
-.cyan { color: #54C9ED; }
+.cyan { color: #65CEEF; }
 /* font-style: normal; */
 
 .md-typeset details,

@@ -19,13 +19,13 @@ Used only in Comms workflows.
 
 ## Flag properties
 
-#### *Draft/Preview*  
-A ticket with *Content* <u>In progress</u> is ambiguous from a task persepective – it is unclear whether the task should be to <u>implement edits</u> or to <u>send a draft/preview to the customer</u>. This property is used as a flag to indicate to workflows which task is needed.  
-
 #### *Report-Is-First-Associated*  
 There is the possibility that an additional report could be added to a ticket and then a report due date is changed in either report. Workflows would have no way of ascertaining whether the due date for the other report should also be changed or which date should be the report date in the survey ticket. To counter this, only the first created report is 'linked' to the survey ticket: a due date change in one will change the due date in the other. If an additional report is present, a task will be generated to prompt a manual change. This property is used to facilitate this functionality in workflows.  
 
 ## State tracking properties
+
+#### *Draft/Preview*  
+A ticket with *Content* <u>In progress</u> is ambiguous from a task persepective – it is unclear whether the task should be to <u>implement edits</u> or to <u>send a draft/preview to the customer</u>. This property is used to indicate to workflows which task is needed.  
 
 #### *Content task list*
 As a survey ticket's *Content* property may fluctuate between 2-3 different values, any workflow that simply creates a new task based on the current *Content* state will have the effect of 'spamming' the ticket with tasks. To prevent this and maintain ticket tidiness, this property is used as a flag to record which tasks already exist (so that they can be reused when necessary). This could be achieved using branching logic within the content workflows, but this would make the already-dense workflows slower, more complex and harder to maintain.  
@@ -36,7 +36,7 @@ Used to track which comms are next to go out, as well as determine which comms t
 <i>Example values: <u>Confirm ready for set-up</u>, <u>Survey launch</u>, <u>Ask about close</u></i>  
 
 #### *Chase POC Comms status*
-Used to track which chaser comms have been sent to avoid the identical comms being sent out twice. Sending a chaser email advances the property to the next stage. However, as soon as the date reaches the *Content Due Date* for the ticket, the *Chase POC Comms status* is automatically advanced to <u>(content deadline reached)</u> by [workflow]().  
+Used to track which chaser comms have been sent to avoid the identical comms being sent out twice. Sending a chaser email advances the property to the next stage. However, as soon as the date reaches the *Content Due Date* for the ticket, the *Chase POC Comms status* is automatically advanced to <u>(content deadline reached)</u> by a [COMMS[0]/SPEC/CSS]() workflow.  
 <i>Example values: <u>(2nd nudge)</u>, <u>(past deadline; 2nd chaser)</u></i>  
 <small>Note: A blank value for this property indicates the first stage of Chaser comms.</small>  
 

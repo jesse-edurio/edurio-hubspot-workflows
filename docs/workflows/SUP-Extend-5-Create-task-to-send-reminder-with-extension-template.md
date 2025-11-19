@@ -14,12 +14,12 @@
   });
 </script> 
 
-### Key steps  
+### Key points  
 - Check if a reminder task due today has already been completed.  
 - Sets new final reminder *Due date* = 2 days ahead.  
 
-### <span class="red">Possible bug</span>
-<span class="red">Shouldn't it check only if R3 (or final) has been sent today, not any reminder? What if R2 was sent today?</span>  
+### <span class="red">Update required?</span>
+<span class="red">The functionality could be improved here; the actions required may vary depending on the point at which the extension is made. <i>Ask about close</i> may or may not needed to be removed, and a very early extension may not need an extension-template reminder. UNDER INVESTIGATION (non-urgent).</span>  
 
 ### Related  
 - [SUP/Extend[3]: Update 'unassign issue' task date and create new final reminder](../workflows/SUP-Extend-3-Update-unassign-issue-task-date-and-create-new-final-reminder.md)  

@@ -17,7 +17,7 @@
   });
 </script>
 
-### Key steps  
+### Key points  
 - If *Report* is blank, creates a warning task.  
 - Triggers <u>CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets</u> workflow using *HSTrigger* to create the report task in the <b><i>report</i></b> ticket(s), not the survey ticket.    
 

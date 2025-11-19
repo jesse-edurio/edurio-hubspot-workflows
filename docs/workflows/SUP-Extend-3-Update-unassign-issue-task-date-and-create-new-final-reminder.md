@@ -15,7 +15,7 @@
   });
 </script> 
 
-### Key steps  
+### Key points  
 - Sets the *Due date* of <u>Unassign close task</u> and uncompletes it.  
 - If a final reminder is needed, creates task and triggers <u>Extend[5]</u> ticket workflow using *HSTrigger*.  
 

@@ -41,9 +41,9 @@
 <small>Set by: [CSM/Aux/TCKT/GTLB: Create Report/Survey tickets or Data export issues for CSMs](../workflows)</small>  
 <small>Triggers: [CSM/CSS/TSK/Aux: Create or update tasks in assoc. tickets](../workflows/CSM-CSS-TSK-Aux-Create-update-tasks-assoc.md)</small>  
 
-## *Comms update trigger*
-
+## *Comms update trigger*  
+(to do)
 
 ### See also:
 - [User-controlled property triggers/flags](../articles/User-controlled-property-triggers-flags.md)  
-- [Using property triggers/flags](../articles/Article-How-to-circumvent-HubSpots-limitations.md#using-property-triggersflags)  
+- [Using property triggers/flags](../articles/Article-Techniques-used-in-CS-workflows.md#using-property-triggersflags)  

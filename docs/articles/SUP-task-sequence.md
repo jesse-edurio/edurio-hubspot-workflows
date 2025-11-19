@@ -25,7 +25,7 @@
 ### Close extension  
 
 - <u>Click to trigger automation to update Unassign Close Issue and generate reminder(s)</u>  
-<u><small>&lt;company></small> has extended (<small>&lt;type></small>). Complete actions (see notes).</u>  
+<small><u>&lt;company></small> has extended (</u><small><u>&lt;type></small>). Complete actions (see notes).</u>  
 <small>Created by: [SUP/Extend[0]](../workflows/SUP-Extend-0-Create-initial-tasks-and-start-date-calculation-workflow.md)</small>   
 - <u>Reminder (use the extension template)</u>  
 <small>Created by: [SUP/Extend[5]](../workflows/SUP-Extend-5-Create-task-to-send-reminder-with-extension-template.md)</small>  

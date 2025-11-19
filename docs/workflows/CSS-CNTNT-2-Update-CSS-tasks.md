@@ -28,8 +28,10 @@
 <i>The exact task sequence varies slightly according to the *CSS* property (e.g. whether a <u>Send draft/preview</u> task is generated or considered implicitly completed when the ticket moves into <u>In review</u>).<br>Tickets that are <u>In process</u> do not require customer chasing for content.</i>  
 
 ### Related  
-- [CSS/CNTNT[0]: Admin dropdown change → chase task update](../workflows/CSS-CNTNT-0-Admin-dropdown-change.md)
 - [CSS/CNTNT[0]: Dataset dropdown change → chase task update](../workflows/CSS-CNTNT-0-Dataset-dropdown-change.md)  
-- [CSS/CNTNT[1]: Content dropdown change → update tasks](../workflows/CSS-CNTNT-1-Content-dropdown-change.md)
+- [CSS/CNTNT[1]: Content dropdown change → update tasks](../workflows/CSS-CNTNT-1-Content-dropdown-change.md)  
+- [CSS3/Setup/CNTNT/PIPE/TSK: Task sequences](../workflows/CSS3-Setup-CNTNT-PIPE-TSK-Task-sequences.md)  
+- [CSS task sequence](../articles/CSS-task-sequence.md)  
+- [Chase POC task](../articles/CSS-tasks-Chase-POC.md)  
 - [Draft/Preview property](../articles/Workflow-internal-properties.md#draftpreview)
-- [Content task list property](../articles/Workflow-internal-properties.md#content-task-list)
+- [Content task list property](../articles/Workflow-internal-properties.md#content-task-list)  

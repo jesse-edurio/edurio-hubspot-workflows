@@ -17,7 +17,7 @@
   });
 </script>
 
-### Key steps  
+### Key points  
 - *HSTrigger* change + task priority update.  
 - Advances *Comms stage* if both content and dataset are ready.
 
